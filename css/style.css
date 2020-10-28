@@ -1,0 +1,108 @@
+
+ 
+.line1 {
+    stroke-dasharray: 711;
+    stroke-dashoffset: 711;
+    animation: dash 5s linear alternate infinite;
+}
+
+@keyframes dash {
+    0% {
+        stroke-dashoffset: 711; 
+       
+    }
+    
+
+
+
+    100% {
+        stroke-dashoffset: 0;
+    }
+}
+
+
+.line2 {
+    stroke-dasharray: 100;
+    stroke-dashoffset: 100;
+    animation: dash2 5s linear alternate infinite;
+    
+   
+
+}
+
+@keyframes dash2 {
+    0% {
+        
+       
+        
+        
+    }
+    
+
+    80%{
+        stroke-dashoffset: 100;
+        
+       
+    }
+   
+    
+    100% {
+        stroke-dashoffset: 0;
+        
+        
+        
+    }
+}
+
+
+
+
+.st0 {
+    fill: none;
+    stroke: #000000;
+    stroke-width: 1.0551;
+    stroke-miterlimit: 10;
+}
+
+.st1 {
+    fill: none;
+    stroke: #000000;
+    stroke-width: 1.0468;
+    stroke-miterlimit: 10;
+}
+
+
+.white1{
+    width: 30%;
+    height: 44%;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    background-color: white;
+    z-index: 1;
+
+}
+
+
+.white2{
+    width: 33.33%;
+    height: 69%;
+    position: absolute;
+    top: 0%;
+    left: 30%;
+    background-color: white;
+    z-index: 1;
+
+}
+
+.white3{
+    width: 37%;
+    height: 81%;
+    position: absolute;
+    top: 0%;
+    left: 63%;
+    background-color: white;
+    z-index: 1;
+
+}
+
